@@ -37,7 +37,3 @@ def fetch_articles():
     else:
         print(f"❌ Failed with status code {response.status_code}")
         print(response.text)
-
-
-if __name__ == "__main__":
-    fetch_articles()
